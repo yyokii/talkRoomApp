@@ -7,14 +7,34 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		360A143C4CBACB272245EC7C /* Pods_talkRoom.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 4601F74D3C0932320D850A06 /* Pods_talkRoom.framework */; };
 		D326AB851ED5BE0900B8837B /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = D326AB841ED5BE0900B8837B /* AppDelegate.swift */; };
 		D326AB871ED5BE0900B8837B /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = D326AB861ED5BE0900B8837B /* ViewController.swift */; };
 		D326AB8A1ED5BE0900B8837B /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = D326AB881ED5BE0900B8837B /* Main.storyboard */; };
 		D326AB8C1ED5BE0900B8837B /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = D326AB8B1ED5BE0900B8837B /* Assets.xcassets */; };
 		D326AB8F1ED5BE0900B8837B /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = D326AB8D1ED5BE0900B8837B /* LaunchScreen.storyboard */; };
+		D330C3FA1ED5C3BB00A037DA /* backImage.jpg in Resources */ = {isa = PBXBuildFile; fileRef = D330C3EE1ED5C3BB00A037DA /* backImage.jpg */; };
+		D330C3FB1ED5C3BB00A037DA /* camera.png in Resources */ = {isa = PBXBuildFile; fileRef = D330C3EF1ED5C3BB00A037DA /* camera.png */; };
+		D330C3FC1ED5C3BB00A037DA /* cc.gif in Resources */ = {isa = PBXBuildFile; fileRef = D330C3F01ED5C3BB00A037DA /* cc.gif */; };
+		D330C3FD1ED5C3BB00A037DA /* five.png in Resources */ = {isa = PBXBuildFile; fileRef = D330C3F11ED5C3BB00A037DA /* five.png */; };
+		D330C3FE1ED5C3BB00A037DA /* four.png in Resources */ = {isa = PBXBuildFile; fileRef = D330C3F21ED5C3BB00A037DA /* four.png */; };
+		D330C3FF1ED5C3BB00A037DA /* library.png in Resources */ = {isa = PBXBuildFile; fileRef = D330C3F31ED5C3BB00A037DA /* library.png */; };
+		D330C4001ED5C3BB00A037DA /* one.png in Resources */ = {isa = PBXBuildFile; fileRef = D330C3F41ED5C3BB00A037DA /* one.png */; };
+		D330C4011ED5C3BB00A037DA /* roomBGI.jpg in Resources */ = {isa = PBXBuildFile; fileRef = D330C3F51ED5C3BB00A037DA /* roomBGI.jpg */; };
+		D330C4021ED5C3BB00A037DA /* seven.png in Resources */ = {isa = PBXBuildFile; fileRef = D330C3F61ED5C3BB00A037DA /* seven.png */; };
+		D330C4031ED5C3BB00A037DA /* six.png in Resources */ = {isa = PBXBuildFile; fileRef = D330C3F71ED5C3BB00A037DA /* six.png */; };
+		D330C4041ED5C3BB00A037DA /* three.png in Resources */ = {isa = PBXBuildFile; fileRef = D330C3F81ED5C3BB00A037DA /* three.png */; };
+		D330C4051ED5C3BB00A037DA /* two.png in Resources */ = {isa = PBXBuildFile; fileRef = D330C3F91ED5C3BB00A037DA /* two.png */; };
+		D330C4071EDA565C00A037DA /* GoogleService-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = D330C4061EDA565C00A037DA /* GoogleService-Info.plist */; };
+		D3911E901EE3A04800DFD85B /* ChatViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = D3911E8F1EE3A04800DFD85B /* ChatViewController.swift */; };
+		D3911E921EE3BF4E00DFD85B /* SettingViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = D3911E911EE3BF4E00DFD85B /* SettingViewController.swift */; };
+		D3E934A21EE395E500E81012 /* RoomViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = D3E934A11EE395E500E81012 /* RoomViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		32FA7D800A70B80A0CB3BF9D /* Pods-talkRoom.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-talkRoom.release.xcconfig"; path = "Pods/Target Support Files/Pods-talkRoom/Pods-talkRoom.release.xcconfig"; sourceTree = "<group>"; };
+		34A5C1E5338252E78B913913 /* Pods-talkRoom.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-talkRoom.debug.xcconfig"; path = "Pods/Target Support Files/Pods-talkRoom/Pods-talkRoom.debug.xcconfig"; sourceTree = "<group>"; };
+		4601F74D3C0932320D850A06 /* Pods_talkRoom.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_talkRoom.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		D326AB811ED5BE0900B8837B /* talkRoom.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = talkRoom.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		D326AB841ED5BE0900B8837B /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		D326AB861ED5BE0900B8837B /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
@@ -22,6 +42,22 @@
 		D326AB8B1ED5BE0900B8837B /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		D326AB8E1ED5BE0900B8837B /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		D326AB901ED5BE0900B8837B /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		D330C3EE1ED5C3BB00A037DA /* backImage.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = backImage.jpg; sourceTree = "<group>"; };
+		D330C3EF1ED5C3BB00A037DA /* camera.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = camera.png; sourceTree = "<group>"; };
+		D330C3F01ED5C3BB00A037DA /* cc.gif */ = {isa = PBXFileReference; lastKnownFileType = image.gif; path = cc.gif; sourceTree = "<group>"; };
+		D330C3F11ED5C3BB00A037DA /* five.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = five.png; sourceTree = "<group>"; };
+		D330C3F21ED5C3BB00A037DA /* four.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = four.png; sourceTree = "<group>"; };
+		D330C3F31ED5C3BB00A037DA /* library.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = library.png; sourceTree = "<group>"; };
+		D330C3F41ED5C3BB00A037DA /* one.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = one.png; sourceTree = "<group>"; };
+		D330C3F51ED5C3BB00A037DA /* roomBGI.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = roomBGI.jpg; sourceTree = "<group>"; };
+		D330C3F61ED5C3BB00A037DA /* seven.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = seven.png; sourceTree = "<group>"; };
+		D330C3F71ED5C3BB00A037DA /* six.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = six.png; sourceTree = "<group>"; };
+		D330C3F81ED5C3BB00A037DA /* three.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = three.png; sourceTree = "<group>"; };
+		D330C3F91ED5C3BB00A037DA /* two.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = two.png; sourceTree = "<group>"; };
+		D330C4061EDA565C00A037DA /* GoogleService-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = "GoogleService-Info.plist"; sourceTree = "<group>"; };
+		D3911E8F1EE3A04800DFD85B /* ChatViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ChatViewController.swift; sourceTree = "<group>"; };
+		D3911E911EE3BF4E00DFD85B /* SettingViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SettingViewController.swift; sourceTree = "<group>"; };
+		D3E934A11EE395E500E81012 /* RoomViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = RoomViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -29,17 +65,37 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				360A143C4CBACB272245EC7C /* Pods_talkRoom.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		81BD34A25D9CA73C52A77374 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				34A5C1E5338252E78B913913 /* Pods-talkRoom.debug.xcconfig */,
+				32FA7D800A70B80A0CB3BF9D /* Pods-talkRoom.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+		B71C11E7556242E7EB6283B2 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				4601F74D3C0932320D850A06 /* Pods_talkRoom.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
 		D326AB781ED5BE0800B8837B = {
 			isa = PBXGroup;
 			children = (
 				D326AB831ED5BE0900B8837B /* talkRoom */,
 				D326AB821ED5BE0900B8837B /* Products */,
+				81BD34A25D9CA73C52A77374 /* Pods */,
+				B71C11E7556242E7EB6283B2 /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -54,14 +110,38 @@
 		D326AB831ED5BE0900B8837B /* talkRoom */ = {
 			isa = PBXGroup;
 			children = (
+				D330C3ED1ED5C35100A037DA /* Resources */,
 				D326AB841ED5BE0900B8837B /* AppDelegate.swift */,
 				D326AB861ED5BE0900B8837B /* ViewController.swift */,
+				D3E934A11EE395E500E81012 /* RoomViewController.swift */,
+				D3911E911EE3BF4E00DFD85B /* SettingViewController.swift */,
+				D3911E8F1EE3A04800DFD85B /* ChatViewController.swift */,
 				D326AB881ED5BE0900B8837B /* Main.storyboard */,
 				D326AB8B1ED5BE0900B8837B /* Assets.xcassets */,
 				D326AB8D1ED5BE0900B8837B /* LaunchScreen.storyboard */,
 				D326AB901ED5BE0900B8837B /* Info.plist */,
+				D330C4061EDA565C00A037DA /* GoogleService-Info.plist */,
 			);
 			path = talkRoom;
+			sourceTree = "<group>";
+		};
+		D330C3ED1ED5C35100A037DA /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+				D330C3EE1ED5C3BB00A037DA /* backImage.jpg */,
+				D330C3EF1ED5C3BB00A037DA /* camera.png */,
+				D330C3F01ED5C3BB00A037DA /* cc.gif */,
+				D330C3F11ED5C3BB00A037DA /* five.png */,
+				D330C3F21ED5C3BB00A037DA /* four.png */,
+				D330C3F31ED5C3BB00A037DA /* library.png */,
+				D330C3F41ED5C3BB00A037DA /* one.png */,
+				D330C3F51ED5C3BB00A037DA /* roomBGI.jpg */,
+				D330C3F61ED5C3BB00A037DA /* seven.png */,
+				D330C3F71ED5C3BB00A037DA /* six.png */,
+				D330C3F81ED5C3BB00A037DA /* three.png */,
+				D330C3F91ED5C3BB00A037DA /* two.png */,
+			);
+			name = Resources;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -71,9 +151,12 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = D326AB931ED5BE0900B8837B /* Build configuration list for PBXNativeTarget "talkRoom" */;
 			buildPhases = (
+				0617D17B843CA6319C0C7EE2 /* [CP] Check Pods Manifest.lock */,
 				D326AB7D1ED5BE0800B8837B /* Sources */,
 				D326AB7E1ED5BE0800B8837B /* Frameworks */,
 				D326AB7F1ED5BE0800B8837B /* Resources */,
+				075330EA82436F4E1ED9BD65 /* [CP] Embed Pods Frameworks */,
+				60E66B46027AD04EED7FC7E3 /* [CP] Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -96,6 +179,7 @@
 				TargetAttributes = {
 					D326AB801ED5BE0800B8837B = {
 						CreatedOnToolsVersion = 8.2.1;
+						DevelopmentTeam = 36FDYZWS56;
 						ProvisioningStyle = Automatic;
 					};
 				};
@@ -123,21 +207,85 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				D330C3FC1ED5C3BB00A037DA /* cc.gif in Resources */,
+				D330C4021ED5C3BB00A037DA /* seven.png in Resources */,
+				D330C4041ED5C3BB00A037DA /* three.png in Resources */,
+				D330C4051ED5C3BB00A037DA /* two.png in Resources */,
+				D330C3FF1ED5C3BB00A037DA /* library.png in Resources */,
+				D330C3FA1ED5C3BB00A037DA /* backImage.jpg in Resources */,
 				D326AB8F1ED5BE0900B8837B /* LaunchScreen.storyboard in Resources */,
+				D330C4031ED5C3BB00A037DA /* six.png in Resources */,
+				D330C3FD1ED5C3BB00A037DA /* five.png in Resources */,
 				D326AB8C1ED5BE0900B8837B /* Assets.xcassets in Resources */,
+				D330C4011ED5C3BB00A037DA /* roomBGI.jpg in Resources */,
+				D330C4001ED5C3BB00A037DA /* one.png in Resources */,
 				D326AB8A1ED5BE0900B8837B /* Main.storyboard in Resources */,
+				D330C3FB1ED5C3BB00A037DA /* camera.png in Resources */,
+				D330C3FE1ED5C3BB00A037DA /* four.png in Resources */,
+				D330C4071EDA565C00A037DA /* GoogleService-Info.plist in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		0617D17B843CA6319C0C7EE2 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+		075330EA82436F4E1ED9BD65 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-talkRoom/Pods-talkRoom-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		60E66B46027AD04EED7FC7E3 /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-talkRoom/Pods-talkRoom-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
 		D326AB7D1ED5BE0800B8837B /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				D3911E921EE3BF4E00DFD85B /* SettingViewController.swift in Sources */,
 				D326AB871ED5BE0900B8837B /* ViewController.swift in Sources */,
 				D326AB851ED5BE0900B8837B /* AppDelegate.swift in Sources */,
+				D3911E901EE3A04800DFD85B /* ChatViewController.swift in Sources */,
+				D3E934A21EE395E500E81012 /* RoomViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -256,8 +404,10 @@
 		};
 		D326AB941ED5BE0900B8837B /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 34A5C1E5338252E78B913913 /* Pods-talkRoom.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = 36FDYZWS56;
 				INFOPLIST_FILE = talkRoom/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = com.yyokii.talkRoom;
@@ -268,8 +418,10 @@
 		};
 		D326AB951ED5BE0900B8837B /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 32FA7D800A70B80A0CB3BF9D /* Pods-talkRoom.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = 36FDYZWS56;
 				INFOPLIST_FILE = talkRoom/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = com.yyokii.talkRoom;
@@ -297,6 +449,7 @@
 				D326AB951ED5BE0900B8837B /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
