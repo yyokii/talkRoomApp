@@ -32,9 +32,7 @@ class ChatViewController: JSQMessagesViewController {
         //navigationItem.title = "hi"
         
         backgroundImageView.frame = CGRect(x: 0, y: 0, width: self.view.frame.size.width, height: self.view.frame.size.height)
-        print("hi")
         if UserDefaults.standard.object(forKey: "backImage") != nil {
-//            print("hi image")
             let decodeData = UserDefaults.standard.object(forKey: "backImage")
             let decodedData = NSData(base64Encoded: decodeData as! String, options: NSData.Base64DecodingOptions.ignoreUnknownCharacters)
             let decodedImage = UIImage(data: decodedData as! Data)
@@ -86,7 +84,9 @@ class ChatViewController: JSQMessagesViewController {
         firebase.observe(.childAdded, with: { (snapshot) in
             if let dictionary = snapshot.value as? [String:AnyObject] {
                 let snapshotValue = snapshot.value as! NSDictionary
-                snapshotValue.setValuesForKeys(dictionary)//ここプリントして確認したい
+                print(snapshotValue)
+                snapshotValue.setValuesForKeys(dictionary)//ここプリントして確認した、けど意味不→（キーと値をそれぞれ、まとめていれてる）上のsnapshotValueの宣言もしくは、ここ、いらんくね
+
                 let text = snapshotValue["text"] as! String
                 let senderId = snapshotValue["from"] as! String
                 let name = snapshotValue["name"] as! String
